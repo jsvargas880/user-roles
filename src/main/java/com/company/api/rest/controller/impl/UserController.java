@@ -1,4 +1,4 @@
-package com.company.api.rest.controller;
+package com.company.api.rest.controller.impl;
 
 import com.company.api.rest.model.dto.ResponseDto;
 import com.company.api.rest.model.dto.UserRolesRequest;
