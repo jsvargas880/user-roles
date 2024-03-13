@@ -36,4 +36,4 @@ jobs:
       - name: Delete old container
         run: sudo docker rm -f user-roles-container
       - name: Run docker container
-        run: sudo docker run -d -p 8081:8080 --name user-roles-container josevargas088/user-roles
+        run: sudo docker run -d -p 8080:8081 --name user-roles-container josevargas088/user-roles
